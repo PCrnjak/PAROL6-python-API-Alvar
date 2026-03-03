@@ -1,6 +1,7 @@
 # PAROL6 Headless Commander Documentation
 
 ## 1. Important Notes & Disclaimers
+This code is written by: https://github.com/AlvarEhr ; More upstream API version is located here: https://github.com/PCrnjak/PAROL6-python-API
 * **Software Origin**: This control system is based on the `experimental_kinematics` branch of the `PAROL_commander_software` repository. The core communication functions were derived from the `Serial_sender_good_latest.py` file; however, the approach to motion planning has been altered from the original implementation. This system was created by editing the `Commander_minimal_version.py` file, which was used as a base.
 * **Automatic Homing on Startup**: By default, the `headless_commander.py` script will immediately command the robot to home itself upon startup. This is done for convenience but can be disabled. To prevent automatic homing, comment out or delete the corresponding line in `headless_commander.py`.
 * **AI-Assisted Development**: This code was developed with significant AI assistance. While the core logic has been corrected and improved, it has not been exhaustively tested in all scenarios. Users should proceed with caution and verify functionality for their specific needs.
